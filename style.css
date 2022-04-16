@@ -1,0 +1,109 @@
+* {
+    
+    margin: 0;
+    padding: 0; 
+    /* CALLED A RESET THAT ZEROS OUT DEFAULT */  
+}
+
+body{
+    padding: 10px;
+    color: rgb(40,25,12);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: bisque;
+    
+
+    /* OR YOU CAN DO THIS INSTEAD: 
+    font: normal 16px Arial, Helvetica, sans-serif; */
+
+    line-height: 1,6em;
+
+}
+
+/* ===============TAG SELECTORS================ */
+/* THE RULES BELOW WILL APPLY TO A LINKS */
+a{
+    text-decoration: none;
+    
+}
+
+/* WILL TURN ANY LINK YOU HOVER OVER RED */
+a:hover {
+    color:red;
+}
+
+/* WILL TURN ANY LINK YOU CLICK ON GREEN */
+a:active {
+    color: green;
+}
+
+a:visited{
+    color: black;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: chocolate;
+    color: bisque;
+    font-size: 20px;
+    
+    
+}
+
+/* ===============CLASS SELECTORS================ */
+
+.banner {
+    
+    height: 40vh;
+    width: 98vw; 
+    
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* margin-left: 5%; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 68%; 
+    margin-left: 10%; 
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
+}
+
+.notes {
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.span {
+    font-weight: 400;
+}
+
+
+/* ===============I.D. SELECTORS================ */
+
+#button.form1 {
+    background-color: rgb(40,25,12);
+    color:bisque;
+    font-size: large;
+    padding:5px;
+    margin-top: 20px; 
+    width: 10%;
+
+}
